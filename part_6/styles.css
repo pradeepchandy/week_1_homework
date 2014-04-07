@@ -4,6 +4,102 @@ body {
 }
 
 
+h1 {
+  text-align: center;
+  letter-spacing: 0.25em;
+}
+
+.l2title {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.15em;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote footer {
+  text-align: right;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 13%;
+}
+
+dd {
+  width: 80%;
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2 {
+  border-top: 2px black solid;
+  border-bottom: 1px black solid;
+  text-transform: uppercase;
+  font-size: 16pt;
+  letter-spacing: 0.25em;
+}
+
+h2 small {
+  font-size: medium;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote footer {
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+blockquote footer a {
+  text-decoration: none;
+}
+
+.schedule {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: 200;
+  border: 2px lightgray solid;
+}
+
+td {
+  border: 1px lightgray solid;
+}
+
+.week {
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.odd_week {
+  background-color: azure;
+}
+
+
+
+
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
 /* Don't worry about it. Write your CSS rules above the dotted line. */

@@ -1,5 +1,77 @@
 /* Make the invisible visible */
 
+
+.top {
+  height: 200px;
+  background-color: lightgrey;
+}
+
+
+.left {
+
+width: 33%;
+ height: 200px;
+  float: left;
+  
+}
+
+
+.center {
+
+width: 33%;
+ height: 200px;
+ float: left;
+ 
+}
+
+
+.right {
+ 
+width: 33%;
+ height: 200px;
+ float: right;
+}
+
+.desc1{
+ 
+width: 33%;
+ height: 200px;
+ float: left;
+}
+
+
+.desc2{
+ 
+width: 33%;
+ height: 200px;
+ float: right;
+}
+
+
+.test1{
+ 
+width: 33%;
+ height: 200px;
+ float: left;
+}
+
+
+.test2{
+ 
+width: 33%;
+ height: 200px;
+ float: left;
+}
+
+
+.test3{
+ 
+width: 33%;
+ height: 200px;
+ float: left;
+}
+
+
 * {
   border: thin red solid;
 }
